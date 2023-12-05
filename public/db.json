@@ -1,0 +1,69 @@
+{"books":[
+  {
+  "id":1,
+  "day":"Monday",
+  "category": "Push",
+  "Exercise_Title":"Chest",
+  "Intensity_Level": "Medium",
+  "sets": 3,
+  "reps": 12,
+  "resttime": "60 sec",
+  "pic" : "https://images.squarespace-cdn.com/content/v1/58501b0cf5e23149e5589e12/1585601917653-J791ZN5ZWSK565NIZSS1/1_WZmDgcJO40Va5mVgdfbz7g%402x.jpeg"
+  },
+  {
+    "id":2,
+    "day":"Tuesday",
+    "category": "Pull",
+    "Exercise_Title":"Bicpes and forearms",
+    "Intensity_Level": "Medium",
+    "sets": 5,
+    "reps": 12,
+    "resttime": "30 sec",
+    "pic" : "https://s3assets.skimble.com/assets/2287282/image_iphone.jpg"
+  },
+  {
+    "id":3,
+    "day":"Wednesday",
+    "category": "Lower Body",
+    "Exercise_Title":"Legs",
+    "Intensity_Level": "Hard",
+    "sets": 4,
+    "reps": 10,
+    "resttime": "Regain Strength",
+    "pic" : "https://weighttraining.guide/wp-content/uploads/2016/10/barbell-squat-resized-FIXED-2.png"  
+  },
+
+  {
+    "id":4,
+    "day":"Thursday",
+    "category": "Push",
+    "Exercise_Title":"Triceps",
+    "Intensity_Level": "Medium",
+    "sets": 3,
+    "reps": 12,
+    "resttime": "60 sec",
+    "pic" : "https://static.strengthlevel.com/images/illustrations/tricep-rope-pushdown-1000x1000.jpg"
+  },
+  {
+    "id":5,
+    "day":"Friday",
+    "category": "Pull",
+    "Exercise_Title":"Back",
+    "Intensity_Level": "Medium",
+    "sets": 3,
+    "reps": 12,
+    "resttime": "60 sec",
+    "pic" : "https://anabolicaliens.com/cdn/shop/articles/5f19b4eff633a10684ef6193_wide-grip-lat-pulldown-anabolic-aliens.png?v=1644918521"
+  },
+  {
+    "id":6,
+    "day":"Saturday",
+    "category": "Push",
+    "Exercise_Title":"Shoulder",
+    "Intensity_Level": "Medium",
+    "sets": 4,
+    "reps": 12,
+    "resttime": "120 sec",
+    "pic" : "https://static.strengthlevel.com/images/illustrations/seated-dumbbell-shoulder-press-1000x1000.jpg"
+  }
+]}
