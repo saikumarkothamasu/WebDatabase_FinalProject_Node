@@ -50,7 +50,7 @@ else if(req.url=='/api')
 }
 else{
 
-    res.end("Eror 404")
+    res.end("Error - 404")
 }
 
 });
