@@ -39,7 +39,7 @@ if(req.url === '/'){
 else if(req.url=='/api')
 {
 
-    const cursor = client.db("workoutdb").collection("workoutcollections").find({});
+    const cursor = client.db("workdb").collection("workcollections").find({});
     const results = await cursor.toArray();
     //console.log(results);
     const js= (JSON.stringify(results));
