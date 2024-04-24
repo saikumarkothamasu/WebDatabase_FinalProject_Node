@@ -1,0 +1,46 @@
+{"books": [
+  {
+    "locationname": "USA",
+    "location": "New York",
+    "hoteldates" : 12.2,
+    "besttimetovisit" : "Night",
+    "price" : 1500,
+    "availability" : false,
+    "photo" : "https://media.istockphoto.com/id/523513953/photo/times-square-in-new-york-city.jpg?s=612x612&w=0&k=20&c=ibPzzIPHrsIdPElVpZYHyWyvqIN4VXTzNP5UXiQcpu8="
+  },
+  {
+    "locationname": "Paris",
+    "location": "Eiffel Tower",
+    "hoteldates" : 15.12,
+    "besttimetovisit" : "Night",
+    "price" : 1500,
+    "availability" : true,
+    "photo" : "https://t4.ftcdn.net/jpg/02/96/15/35/360_F_296153501_B34baBHDkFXbl5RmzxpiOumF4LHGCvAE.jpg"
+  },
+{
+  "locationname": "Italy",
+  "location": "Rome",
+  "hoteldates" : 2.12,
+  "besttimetovisit" : "Afternoon",
+  "price" : 800,
+  "availability" : false,
+  "photo" : "https://media.istockphoto.com/id/534799507/photo/rome-italy.jpg?s=612x612&w=0&k=20&c=PJueV30-3FDZfof-LkH3MaYUEyRw7mIDC2-C4vzpDBc="
+},
+{
+  "locationname": "Singapore",
+  "location": "Marina Bay Sands",
+  "hoteldates" : 9.1,
+  "besttimetovisit" : "Morning",
+  "price" : 2000,
+  "availability" : true,
+  "photo" : "https://t3.ftcdn.net/jpg/04/95/35/70/360_F_495357024_W9cBAJ4Uai3tpzqlh3u0njOL74Hk8NnN.jpg"
+},
+{
+  "locationname": "London",
+  "location": "Tower of London",
+  "hoteldates" : 30.11,
+  "besttimetovisit" : "Morning",
+  "price" : 1100,
+  "availability" : false,
+  "photo" : "https://media.istockphoto.com/id/1335066549/photo/tower-of-london-from-across-the-thames.webp?b=1&s=170667a&w=0&k=20&c=ZOprhTtA7ZfYiE-BsM-oBZkiuRZRbPAdS5CGzCtzZ4k="
+}]}

@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  text-align: center;
+  float: right; 
+  display: block;
+  color: white;
+  padding: 20px 17px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #cddafd;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+hr {
+  border-style: none;
+  border-color: black;
+  border-width: 5px;
+  width: 5%;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-family: serif;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+  align-self: center;
+
+}
+
+.abt,.exp,.foot {
+  display: grid;
+  grid-gap: 1em;
+}
+
+.abt {
+  grid-template-columns: 1fr 3fr;
+}
+
+.abt, .exp, .skls, .pro, .blo {
+  padding: 3%;
+}
+
+.projs {
+  grid-template-columns: 2fr 2fr;
+}
+
+.skls {
+  grid-template-columns: 2fr 2fr;
+}
+
+#about, #skills, #blogs {
+  background-color:#3498db; 
+}
+
+#experience, #projects {
+  background-color: #5ff39d;
+}
+
+#about img {
+  width: 300px; 
+  height: auto; 
+}
+
+
+.foot {
+  padding: 20px 5%;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.foot a {
+  margin-right: 0 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar.responsive {
+    position: relative;
+  }
+
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar a:hover {
+    background-color: #E5DCC3;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media(max-width:500px) {
+  .abt, .exp,.projs {
+    display: block;
+  }
+}
